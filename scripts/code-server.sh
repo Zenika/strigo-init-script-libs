@@ -10,9 +10,8 @@ set -e
 # - the code-server extensions to install (space-separated names)
 # code_server_extensions="ms-azuretools.vscode-docker coenraads.bracket-pair-colorizer-2"
 # Note: install code-server after installing docker if you plan to use a docker extension
-# - the JSON content of code-server settings (here, to make the terminal a login shell + dark theme)
-# (see https://code.visualstudio.com/docs/editor/integrated-terminal#_shell-arguments)
-# code_server_settings='{ "terminal.integrated.shellArgs.linux": ["-l"], "workbench.colorTheme": "Default Dark+"}'
+# - the JSON content of code-server settings (here, to preset a dark theme)
+# code_server_settings='{"workbench.colorTheme": "Default Dark+"}'
 
 # Install code-server (last released version by default)
 # https://github.com/cdr/code-server/blob/main/docs/install.md#debian-ubuntu
